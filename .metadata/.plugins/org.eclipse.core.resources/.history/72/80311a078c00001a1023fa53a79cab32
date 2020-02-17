@@ -1,0 +1,18 @@
+
+public class Tema5Bloque2E2 {
+
+	public static void main(String[] args) {
+		int array1[]= new int [150];
+		int array2[]= new int [150];
+		int i;
+//2º.- Realiza un ejercicio que inicialice dos arrays de 150 elementos enteros al azar entre 0 y 100. Debes crear un tercer array, compuesto de la siguiente forma: en los elementos de índice impar del tercer array debes copiar los elementos de índice impar del primer array; en los elementos de índice par del tercer 
+//array debes copiar los elementos de índice par del segundo array.
+	
+		for(i=0;i<array1.length;i++) {
+			array1[i]= (int) Math.round(Math.random()*100);
+			System.out.println("Nº "+i+ " : " +array1[i]);
+		}
+
+	}
+
+}

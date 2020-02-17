@@ -1,0 +1,25 @@
+package orientacionObjetos;
+
+import javax.swing.JOptionPane;
+
+public class PruebaPersona {
+
+		public static void main(String[]args) {
+		
+			//Voy a mostrarle al usuario una pantalla donde nos proporcione la informacion necesaria
+			int decision= Integer.parseInt(JOptionPane.showInputDialog("Introduce 1 para dar nueva información"
+					+ " \n Introduce 2 para salir"));
+			
+			if(decision==0) {
+				Persona persona01 = new Persona();		//Es como un molde que indica la estructura de los datos a introducir
+				persona01.nombre=JOptionPane.showInputDialog("Introduce tu nombre");
+				persona01.apellidos=JOptionPane.showInputDialog("Introduce tus apellidos");
+				persona01.dni=JOptionPane.showInputDialog("Introduce tu DNI");
+				persona01.direccion=JOptionPane.showInputDialog("Introduce tu dirección");
+				persona01.telefono=Integer.parseInt(JOptionPane.showInputDialog("Introduce tu número de teléfono"));
+				
+				persona01.imprimePersona(); //Este metodo lo he creado en una class del mismo paquete
+			}
+			
+		}
+}

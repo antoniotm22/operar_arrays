@@ -1,0 +1,17 @@
+package orientacionObjetos;
+
+public class Persona {
+	public String nombre="ninguno";
+	public String dni="ninguno";
+	public String apellidos="ninguno";
+	public String direccion= "ninguna";
+	public int telefono=000000000;
+	
+	/*
+	 * Vamos a crear un metodo para imprimir persona
+	 */
+	public void imprimePersona() {
+		System.out.println("Nombre: "+nombre+" DNI: "+dni+" Apellidos: "+apellidos
+				+" Dirección: "+ direccion+" Teléfono: "+telefono);
+	}
+}
