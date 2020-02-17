@@ -48,6 +48,10 @@ public static void frase() {
 	System.out.println("Hola mentecato");
 }
 
+public static void frase2() {
+	System.out.println("Hola raton");
+}
+
 	
 	
 	public static void main(String[] args) {
