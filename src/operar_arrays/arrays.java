@@ -44,6 +44,9 @@ public static void sumarArray() {
 	System.out.println(total);
 }
 
+public static void frase() {
+	System.out.println("Hola mentecato");
+}
 
 	
 	
